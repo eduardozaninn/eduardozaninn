@@ -1,15 +1,25 @@
-## Olá! Eu sou Eduardo Zanin 🚀
+# Olá! Eu sou Eduardo Zanin 👨‍💻
 
-- 💻 Trabalho com Python, criando soluções eficientes e escaláveis.
-- 📚 Atualmente, estou me aprofundando em JavaScript para expandir minhas habilidades no desenvolvimento web.
+Apaixonado por tecnologia e desenvolvimento, foco em Python e exploro JavaScript e React para soluções web.
 
-##
+## Sobre Mim
+- 💻 Em aprendizado contínuo em Python
+- 🌐 Em aprendizado contínuo em JavaScript, React e desenvolvimento web
+- 📫 Contate-me: [zanineduardo95@gmail.com(mailto:zanineduardo95@gmail.com)
 
- <div> 
-   <a href = "zanineduardo95@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/eduardo-zanin-7bb0b9229" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
- </div>
+## Minhas Contribuições
+![Snake animation](https://raw.githubusercontent.com/eduardoazanin/eduardoazanin/master/snk.svg)
 
+## Habilidades
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## Conecte-se comigo
+[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-zanin](https://www.linkedin.com/in/eduardo-zanin-7bb0b9229/))
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zanineduardo95@gmail.com)
 
 
 <picture align="center">
