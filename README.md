@@ -5,10 +5,8 @@ Apaixonado por tecnologia e desenvolvimento, foco em Python e exploro JavaScript
 ## Sobre Mim
 - 💻 Em aprendizado contínuo em Python
 - 🌐 Em aprendizado contínuo em JavaScript, React e desenvolvimento web
-- 📫 Contate-me: [zanineduardo95@gmail.com(mailto:zanineduardo95@gmail.com)
+- 📫 Contate-me: zanineduardo95@gmail.com
 
-## Minhas Contribuições
-![Snake animation](https://raw.githubusercontent.com/eduardoazanin/eduardoazanin/master/snk.svg)
 
 ## Habilidades
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
