@@ -16,7 +16,7 @@ Apaixonado por tecnologia e desenvolvimento, foco em Python e exploro JavaScript
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Conecte-se comigo
-[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-zanin](https://www.linkedin.com/in/eduardo-zanin-7bb0b9229/))
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/in/eduardo-zanin](https://www.linkedin.com/in/eduardo-zanin-7bb0b9229/))
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zanineduardo95@gmail.com)
 
 
