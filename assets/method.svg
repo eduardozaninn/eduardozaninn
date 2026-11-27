@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" width="1000" height="200" role="img" aria-labelledby="t d">
+  <title id="t">Como eu trabalho</title>
+  <desc id="d">Entender o site, automatizar e medir para entregar</desc>
+  <defs>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#121a36"/>
+      <stop offset="1" stop-color="#0d1326"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    @keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    .fu{animation:fu .8s cubic-bezier(.2,.7,.2,1) both}
+  </style>
+
+  <!-- conectores -->
+  <path d="M300 100H365M635 100H700" stroke="#334155" stroke-width="2" stroke-dasharray="4 5"/>
+  <path d="M358 94l8 6-8 6M693 94l8 6-8 6" fill="none" stroke="#475569" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle r="4.5" fill="#22d3ee">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M300 100H365"/>
+  </circle>
+  <circle r="4.5" fill="#34d399">
+    <animateMotion dur="2.2s" repeatCount="indefinite" path="M635 100H700"/>
+  </circle>
+
+  <!-- passo 1 -->
+  <g class="fu" style="animation-delay:.1s">
+    <rect x="30" y="30" width="270" height="140" rx="16" fill="url(#card)" stroke="#1e293b"/>
+    <circle cx="62" cy="62" r="14" fill="#22d3ee" fill-opacity=".16" stroke="#22d3ee"/>
+    <text class="mono" x="62" y="67" font-size="14" font-weight="700" fill="#67e8f9" text-anchor="middle">1</text>
+    <text class="sans" x="86" y="68" font-size="20" font-weight="700" fill="#f1f5f9">Entender o site</text>
+    <text class="sans" x="50" y="106" font-size="14" fill="#94a3b8">HTML, renderização, indexação</text>
+    <text class="sans" x="50" y="128" font-size="14" fill="#94a3b8">e performance</text>
+  </g>
+
+  <!-- passo 2 -->
+  <g class="fu" style="animation-delay:.3s">
+    <rect x="365" y="30" width="270" height="140" rx="16" fill="url(#card)" stroke="#1e293b"/>
+    <circle cx="397" cy="62" r="14" fill="#8b5cf6" fill-opacity=".18" stroke="#a78bfa"/>
+    <text class="mono" x="397" y="67" font-size="14" font-weight="700" fill="#c4b5fd" text-anchor="middle">2</text>
+    <text class="sans" x="421" y="68" font-size="20" font-weight="700" fill="#f1f5f9">Automatizar</text>
+    <text class="sans" x="385" y="106" font-size="14" fill="#94a3b8">Scripts em Python, APIs</text>
+    <text class="sans" x="385" y="128" font-size="14" fill="#94a3b8">e tratamento de dados</text>
+  </g>
+
+  <!-- passo 3 -->
+  <g class="fu" style="animation-delay:.5s">
+    <rect x="700" y="30" width="270" height="140" rx="16" fill="url(#card)" stroke="#1e293b"/>
+    <circle cx="732" cy="62" r="14" fill="#34d399" fill-opacity=".16" stroke="#34d399"/>
+    <text class="mono" x="732" y="67" font-size="14" font-weight="700" fill="#6ee7b7" text-anchor="middle">3</text>
+    <text class="sans" x="756" y="68" font-size="20" font-weight="700" fill="#f1f5f9">Medir e entregar</text>
+    <text class="sans" x="720" y="106" font-size="14" fill="#94a3b8">Dados claros, tarefas bem</text>
+    <text class="sans" x="720" y="128" font-size="14" fill="#94a3b8">documentadas e alinhadas</text>
+  </g>
+</svg>

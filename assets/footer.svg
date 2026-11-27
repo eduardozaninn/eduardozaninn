@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Rodapé">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="1000" height="120"/></clipPath>
+  </defs>
+  <style>
+    @keyframes w1{to{transform:translateX(-500px)}}
+    @keyframes w2{to{transform:translateX(-500px)}}
+    .w1{animation:w1 9s linear infinite}
+    .w2{animation:w2 14s linear infinite}
+  </style>
+  <g clip-path="url(#c)">
+    <g class="w2" opacity=".35">
+      <path d="M0 70q125-44 250 0t250 0t250 0t250 0t250 0t250 0t250 0V120H0Z" fill="url(#g1)"/>
+    </g>
+    <g class="w1" opacity=".7">
+      <path d="M0 84q125 40 250 0t250 0t250 0t250 0t250 0t250 0t250 0V120H0Z" fill="url(#g1)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" width="1000" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Eduardo Zanin</title>
+  <desc id="d">SEO técnico, Python e React</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0f1f"/>
+      <stop offset="1" stop-color="#141b3a"/>
+    </linearGradient>
+    <linearGradient id="nm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#67e8f9"/>
+      <stop offset=".55" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="ar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34d399" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="o1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="o2">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#94a3b8" fill-opacity=".20"/>
+    </pattern>
+    <clipPath id="cp"><rect width="1000" height="320" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+    @keyframes fu{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes fi{from{opacity:0}to{opacity:1}}
+    @keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-16px)}}
+    @keyframes dr{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+    @keyframes dft{to{transform:translate(24px,24px)}}
+    @keyframes bl{0%,49%{opacity:1}50%,100%{opacity:0}}
+    @keyframes pr{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.6);opacity:0}}
+    @keyframes gw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+    .fu{animation:fu .9s cubic-bezier(.2,.7,.2,1) both}
+    .fi{animation:fi 1.2s ease both}
+    .f1{animation:fl 8s ease-in-out infinite}
+    .f2{animation:fl 10s ease-in-out infinite reverse}
+    .dft{animation:dft 6s linear infinite}
+    .cur{animation:bl 1s steps(1) infinite}
+    .draw{stroke-dasharray:1;animation:dr 2.4s ease .9s both}
+    .ring{transform-box:fill-box;transform-origin:center;animation:pr 2.2s ease-out 3s infinite}
+    .grow{transform-box:fill-box;transform-origin:0 50%;animation:gw 1.2s ease .7s both}
+  </style>
+
+  <g clip-path="url(#cp)">
+    <rect width="1000" height="320" fill="url(#bg)"/>
+    <g class="dft"><rect x="-24" y="-24" width="1048" height="368" fill="url(#dots)"/></g>
+    <g class="f1"><circle cx="820" cy="70" r="190" fill="url(#o1)"/></g>
+    <g class="f2"><circle cx="120" cy="320" r="210" fill="url(#o2)"/></g>
+
+    <!-- texto -->
+    <text class="mono fu" x="60" y="96" font-size="17" fill="#67e8f9" style="animation-delay:.1s">&lt;hello world /&gt;</text>
+    <rect class="cur" x="217" y="81" width="9" height="19" fill="#67e8f9"/>
+    <text class="sans fu" x="58" y="170" font-size="70" font-weight="800" fill="url(#nm)" style="animation-delay:.3s">Eduardo Zanin</text>
+    <text class="sans fu" x="60" y="214" font-size="26" font-weight="600" fill="#e2e8f0" style="animation-delay:.55s">SEO técnico <tspan fill="#475569">·</tspan> Python <tspan fill="#475569">·</tspan> React</text>
+    <text class="sans fu" x="60" y="252" font-size="17" fill="#94a3b8" style="animation-delay:.8s">Eu entendo o site por dentro e automatizo o que se repete.</text>
+    <rect class="grow" x="60" y="270" width="130" height="3" rx="1.5" fill="url(#ln)"/>
+
+    <!-- painel do gráfico -->
+    <g class="fi" style="animation-delay:.5s">
+      <rect x="640" y="56" width="300" height="214" rx="16" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".12"/>
+      <text class="mono" x="662" y="86" font-size="12" fill="#64748b">tráfego orgânico</text>
+      <text class="mono" x="918" y="86" font-size="12" fill="#34d399" text-anchor="end">+ crescimento</text>
+      <path d="M662 120H918M662 160H918M662 200H918" stroke="#ffffff" stroke-opacity=".06"/>
+      <path d="M664 215 C 700 210, 718 198, 748 192 S 800 175, 826 150 S 884 120, 918 100 L918 225 L664 225 Z" fill="url(#ar)"/>
+    </g>
+    <path class="draw" pathLength="1" d="M664 215 C 700 210, 718 198, 748 192 S 800 175, 826 150 S 884 120, 918 100" fill="none" stroke="url(#ln)" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="918" cy="100" r="5.5" fill="#34d399"/>
+    <circle class="ring" cx="918" cy="100" r="5.5" fill="none" stroke="#34d399" stroke-width="2"/>
+
+    <!-- chips -->
+    <g class="fu" style="animation-delay:1.4s">
+      <rect x="664" y="238" width="48" height="20" rx="10" fill="#22d3ee" fill-opacity=".16" stroke="#22d3ee" stroke-opacity=".5"/>
+      <text class="mono" x="688" y="252" font-size="11" fill="#67e8f9" text-anchor="middle">SEO</text>
+      <rect x="720" y="238" width="66" height="20" rx="10" fill="#8b5cf6" fill-opacity=".18" stroke="#8b5cf6" stroke-opacity=".55"/>
+      <text class="mono" x="753" y="252" font-size="11" fill="#c4b5fd" text-anchor="middle">Python</text>
+      <rect x="794" y="238" width="60" height="20" rx="10" fill="#38bdf8" fill-opacity=".16" stroke="#38bdf8" stroke-opacity=".5"/>
+      <text class="mono" x="824" y="252" font-size="11" fill="#7dd3fc" text-anchor="middle">React</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="319" rx="22" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+</svg>
